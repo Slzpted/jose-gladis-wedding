@@ -47,7 +47,7 @@ Before deploying for your own event, update the following in `index.html`:
 
 - **Names, dates, and copy** — search for "Jose & Gladis" and the event date (`2026-08-29`) and replace with your own.
 - **Countdown target** — the `startCountdown()` function targets `2026-08-29T16:00:00`; update to your event's date/time.
-- **Venue addresses** — the `openMap()` calls take a venue name and address, which are looked up on Google/Apple Maps at click time; replace with your own venues' names and addresses.
+- **Venue coordinates** — the `openMap()` calls use hardcoded latitude/longitude pairs; replace with your venues' coordinates.
 - **RSVP form endpoint** — the form currently posts to a Formspree endpoint (`https://formspree.io/f/mgobdjvn`). [Create your own Formspree form](https://formspree.io/) and swap in your own endpoint ID so RSVP submissions go to you, not the original couple.
 
 ## Tech Stack
